@@ -353,8 +353,8 @@ table.hist td:first-child,table.hist th:first-child{text-align:left}
 .facts li.fix{background:var(--bad-soft);border-radius:8px;padding:6px 8px;margin-inline:-8px}
 .facts li.fix .tx{text-decoration:line-through;text-decoration-color:var(--bad);color:var(--ink2)}
 .wr{color:var(--bad);text-decoration:line-through;text-decoration-thickness:2px;text-decoration-color:var(--bad);background:var(--bad-soft);border-radius:3px;padding:0 2px}
-.cr{color:var(--ok);font-weight:700;background:var(--ok-soft,rgba(24,134,90,.12));border-radius:3px;padding:0 3px;margin-left:2px}
-.cr::before{content:"→ ";font-weight:400}
+.cr{color:var(--ok);font-weight:700;background:var(--ok-soft,rgba(24,134,90,.12));border-radius:3px;padding:0 3px;margin-left:1.2em}
+.cr::before{content:"→";position:absolute;left:-1.2em;color:var(--ink);font-weight:400}
 .fixbox{color:var(--ink);margin:10px 0;border:1.5px dashed var(--bad);border-radius:10px;padding:9px 11px;font-size:14.5px;line-height:1.75;word-break:keep-all;overflow-wrap:anywhere}
 .fixbox .lbl{display:block;font-size:12px;font-weight:700;color:var(--bad);margin-bottom:3px}
 .facts li.fix .tx2{color:var(--ink)}
